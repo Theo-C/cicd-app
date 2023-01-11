@@ -27,5 +27,4 @@ jobs:
     - run: npm i
     - run: npm test
     - run: npm run build
-    - run: cp -r _work/cicd-app/cicd-app/build ../React/cicd-app
     - run: npm run deploy
