@@ -27,5 +27,5 @@ jobs:
     - run: npm i
     - run: npm test
     - run: npm run build
-    - run: _work/cicd-app/cicd-app/build /Cours/"Ecole ENIGMA"/React/cicd-app
+    - run: mv _work/cicd-app/cicd-app/build /Cours/"Ecole ENIGMA"/React/cicd-app
     - run: npm run deploy
